@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .ptable-item {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="pricing-table ##is_highlighted## ">
+    <div class="ptable-item">
+      <div class="ptable-single ">
+        <div class="ptable-header">
+          <div class="ptable-title">
+            <h2>##col_title## <br> ##description##</h2>
+          </div>
+          <div class="ptable-price">
+            <h2><small>##col_price_currency##</small>##col_price##<span>##col_price_suffix##</span></h2>
+          </div>
+        </div>
+        <div class="ptable-body">
+          <div class="ptable-description">
+            <ul>
+              ##col_feature_list##
+            </ul>
+          </div>
+        </div>
+        <div class="ptable-footer">
+          <div class="ptable-action">
+            <a href="">##col_cta_btn_text##</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

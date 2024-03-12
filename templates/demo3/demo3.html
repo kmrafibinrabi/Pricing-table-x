@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            .col-sm-4 {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="my-4">
+        <div class="col-sm-4">
+            <div class="card text-center ##is_highlighted##">
+                <div class="title">
+                    <h2>##col_title## </h2>
+                </div>
+                <div class="price">
+                    <h4><small>##col_price_currency##</small>##col_price##<br><span>##col_price_suffix##</span></h4>
+                </div>
+                <div class="description">
+                    <h4>##description##</h4>
+                </div>
+
+                <div class="option">
+                    <ul>
+                        ##col_feature_list##
+                    </ul>
+                </div>
+                <a href="#">##col_cta_btn_text##</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

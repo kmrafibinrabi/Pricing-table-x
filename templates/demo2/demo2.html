@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .pricing-table {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="pricing-table gprice-single ##is_highlighted## ">
+            <div class="head">
+                <h4 class="title">##col_title##</h4>
+                <h4 class="title">##description##</h4>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h1>##col_price_currency##<sup class="vxpt-price-value">##col_price##</sup><span
+                            class="vxpt-price-suffix"> ##col_price_suffix##</span></h1>
+                </div>
+                <ul>
+                    ##col_feature_list##
+                </ul>
+                <div class="sign-up">
+                    <a href="#" class="btn bordered radius">##col_cta_btn_text##</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
